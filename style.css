@@ -15,8 +15,8 @@
 
 @font-face {
   font-family: 'MyCustomFont';
-  src: url('uni05_53.ttf') format('truetype');
-  font-weight: normal;
+  src: url('munro.ttf') format('truetype');
+  font-weight: bolder;
   font-style: normal;
 }
 
@@ -41,7 +41,7 @@ header {
 }
 
 h1 {
-    font-size: 65px;
+    font-size: 84px;
     background: linear-gradient(to right, var(--blue), var(--purple));
     -webkit-background-clip: text;
     background-clip: text;
@@ -54,7 +54,8 @@ h1 {
 h2,p {
     color: var(--grey);
     font-family: "MyCustomFont";
-    font-weight: bold;
+    font-weight: bolder;
+    letter-spacing: 2px;
 }
 
 h2 {
@@ -62,7 +63,7 @@ h2 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 h3 {
