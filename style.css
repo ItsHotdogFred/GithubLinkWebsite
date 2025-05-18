@@ -55,7 +55,7 @@ h2,p {
     color: var(--grey);
     font-family: "MyCustomFont";
     font-weight: bolder;
-    letter-spacing: 2px;
+    letter-spacing: 1.2px;
 }
 
 h2 {
