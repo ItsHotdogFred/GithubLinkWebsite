@@ -75,6 +75,10 @@ h3 {
     padding: 12px 12px;
 }
 
+a, button, .pixel-border, article {
+    cursor: url('Pointer.png'), pointer;
+}
+
 .github-svg-image {
     width: 64px;
     height: 64px;
@@ -101,6 +105,7 @@ h3 {
 body {
     font-family: "Inter";
     background-color: var(--dark);
+    cursor: url('Cursor.png'), auto;
 }
 
 /* Add a container for articles */
